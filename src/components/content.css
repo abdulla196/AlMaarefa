@@ -1,0 +1,9 @@
+.content{
+    background-color: #ffffff;
+    margin: 100px 0;
+}
+table .fa-user{
+    background-color: transparent;
+    color: turquoise;
+    font-size: 20px;
+}

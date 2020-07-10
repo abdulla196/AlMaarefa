@@ -1,0 +1,91 @@
+#navbar{
+    background-color: #fff;
+}
+.logo{
+    width: 100px;
+}
+.language{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.langcalass{
+    background-color: dodgerblue;
+}
+.contact{
+    font-size: 14px;
+}
+.fa-user{
+    background-color: cornflowerblue;
+    color: #fff;
+    width: 33px;
+    border-radius: 50%;
+    height: 33px;
+    padding: 8px 11px;
+}
+.box {
+    display: none;
+    position: absolute;
+    height: 100%;
+    right: -300px;
+    top: 0;
+    background-color: rgba(0,0,0,0.5); 
+    width: 100%;
+  }
+  .box.green {
+      display: block; 
+      height: 100%; 
+      right: 0px;
+      z-index: 3;
+  }
+  .sidebar{
+      padding: 10px 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: #fff;
+      height: 100%;
+      width: 300px;
+      animation-name: sidebar;
+      animation-duration: 0.4s;
+  }
+  
+  .fa-user-friends, .fa-calendar-week, .fa-sign-in-alt ,.fa-chevron-right{
+      color: #000;
+    margin: 0;
+    font-size: 21px;
+  }
+  @keyframes sidebar {
+    0%   {width: 0;} 
+    100% {width: 300px;}
+  }
+  .userdata{
+      padding: 15px;
+      border-bottom: 1px solid #000;
+      margin-bottom: 20px;
+    }
+  .username{
+      font-size: 16px;
+      font-weight: 700;
+  }
+  .links ul{
+      list-style-type: none;
+      padding: 0;
+  }
+  .links ul li span{
+    color: #333;
+}
+  .links ul li{
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+  .links ul li:hover{
+      background-color: #09c;
+  }
+   .links ul li:hover a{
+      color: #fff;
+      text-decoration: none;
+  }
+ 
